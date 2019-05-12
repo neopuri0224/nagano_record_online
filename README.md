@@ -1,24 +1,17 @@
-# README
+# nagano_record_online
+CDの通信販売サイト
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Dependency
+Rails 5.2.3
 
-Things you may want to cover:
+# Usage
+使い方。なるべく具体的に書く。サンプルも書く
 
-* Ruby version
+# License
+This software is released under the MIT License, see LICENSE.
 
-* System dependencies
+# Authors
+作者を明示する。特に、他者が作成したコードを利用する場合は、そのコードのライセンスに従った上で、リポジトリのそれぞれのコードのオリジナルの作者が誰か分かるように明示する（私はそれが良いと思い自主的にしています）。
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# References
+参考にした情報源（サイト・論文）などの情報、リンク
