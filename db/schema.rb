@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_12_204219) do
+ActiveRecord::Schema.define(version: 2019_05_12_204220) do
 
   create_table "artists", force: :cascade do |t|
     t.string "artist_name"
@@ -41,6 +41,15 @@ ActiveRecord::Schema.define(version: 2019_05_12_204219) do
 
   create_table "labels", force: :cascade do |t|
     t.string "label_name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "order_items", force: :cascade do |t|
+    t.integer "order_id"
+    t.integer "product_id"
+    t.integer "order_item_number"
+    t.integer "order_item_price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -112,6 +121,16 @@ ActiveRecord::Schema.define(version: 2019_05_12_204219) do
   end
 
   create_table "users", force: :cascade do |t|
+    t.string "email", default: "", null: false
+    t.string "encrypted_password", default: "", null: false
+    t.string "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.integer "sign_in_count", default: 0, null: false
+    t.datetime "current_sign_in_at"
+    t.datetime "last_sign_in_at"
+    t.string "current_sign_in_ip"
+    t.string "last_sign_in_ip"
     t.string "last_name"
     t.string "first_name"
     t.string "ruby_last_name"
@@ -119,13 +138,13 @@ ActiveRecord::Schema.define(version: 2019_05_12_204219) do
     t.string "postcode"
     t.string "address"
     t.string "phone"
-    t.string "email"
-    t.string "password"
     t.boolean "admin"
+    t.datetime "deleted_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.datetime "deleted_at"
     t.index ["deleted_at"], name: "index_users_on_deleted_at"
+    t.index ["email"], name: "index_users_on_email", unique: true
+    t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
 end
