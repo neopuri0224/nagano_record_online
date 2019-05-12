@@ -122,3 +122,152 @@ Migrating to CreateOrderItems (20190512204208)
   [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
 >>>>>>> 7353540c768f79be6b5698d2534a9dc4febcc11d
   ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (1.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddDeletedAtToUsers (20190512204210)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "users" ADD "deleted_at" datetime[0m
+  ↳ db/migrate/20190512204210_add_deleted_at_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to RemoveDeletedAtToUsers (20190512204210)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "ausers" ("id" integer NOT NULL PRIMARY KEY, "last_name" varchar DEFAULT NULL, "first_name" varchar DEFAULT NULL, "ruby_last_name" varchar DEFAULT NULL, "ruby_first_name" varchar DEFAULT NULL, "postcode" varchar DEFAULT NULL, "address" varchar DEFAULT NULL, "phone" varchar DEFAULT NULL, "email" varchar DEFAULT NULL, "password" varchar DEFAULT NULL, "admin" boolean DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "deleted_at" datetime DEFAULT NULL)[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_ausers_on_deleted_at" ON "ausers" ("deleted_at")[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.3ms)[0m  [1m[32mINSERT INTO "ausers" ("id","last_name","first_name","ruby_last_name","ruby_first_name","postcode","address","phone","email","password","admin","created_at","updated_at","deleted_at")
+                     SELECT "id","last_name","first_name","ruby_last_name","ruby_first_name","postcode","address","phone","email","password","admin","created_at","updated_at","deleted_at" FROM "users"[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (3.3ms)[0m  [1m[35mDROP TABLE "users"[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer NOT NULL PRIMARY KEY, "last_name" varchar DEFAULT NULL, "first_name" varchar DEFAULT NULL, "ruby_last_name" varchar DEFAULT NULL, "ruby_first_name" varchar DEFAULT NULL, "postcode" varchar DEFAULT NULL, "address" varchar DEFAULT NULL, "phone" varchar DEFAULT NULL, "email" varchar DEFAULT NULL, "password" varchar DEFAULT NULL, "admin" boolean DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "users" ("id","last_name","first_name","ruby_last_name","ruby_first_name","postcode","address","phone","email","password","admin","created_at","updated_at")
+                     SELECT "id","last_name","first_name","ruby_last_name","ruby_first_name","postcode","address","phone","email","password","admin","created_at","updated_at" FROM "ausers"[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "ausers"[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (3.8ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to RemoveDeletedAtToUsers (20190512204210)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "ausers" ("id" integer NOT NULL PRIMARY KEY, "last_name" varchar DEFAULT NULL, "first_name" varchar DEFAULT NULL, "ruby_last_name" varchar DEFAULT NULL, "ruby_first_name" varchar DEFAULT NULL, "postcode" varchar DEFAULT NULL, "address" varchar DEFAULT NULL, "phone" varchar DEFAULT NULL, "email" varchar DEFAULT NULL, "password" varchar DEFAULT NULL, "admin" boolean DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "deleted_at" datetime DEFAULT NULL)[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_ausers_on_deleted_at" ON "ausers" ("deleted_at")[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.3ms)[0m  [1m[32mINSERT INTO "ausers" ("id","last_name","first_name","ruby_last_name","ruby_first_name","postcode","address","phone","email","password","admin","created_at","updated_at","deleted_at")
+                     SELECT "id","last_name","first_name","ruby_last_name","ruby_first_name","postcode","address","phone","email","password","admin","created_at","updated_at","deleted_at" FROM "users"[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (3.9ms)[0m  [1m[35mDROP TABLE "users"[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer NOT NULL PRIMARY KEY, "last_name" varchar DEFAULT NULL, "first_name" varchar DEFAULT NULL, "ruby_last_name" varchar DEFAULT NULL, "ruby_first_name" varchar DEFAULT NULL, "postcode" varchar DEFAULT NULL, "address" varchar DEFAULT NULL, "phone" varchar DEFAULT NULL, "email" varchar DEFAULT NULL, "password" varchar DEFAULT NULL, "admin" boolean DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "users" ("id","last_name","first_name","ruby_last_name","ruby_first_name","postcode","address","phone","email","password","admin","created_at","updated_at")
+                     SELECT "id","last_name","first_name","ruby_last_name","ruby_first_name","postcode","address","phone","email","password","admin","created_at","updated_at" FROM "ausers"[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "ausers"[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (4.9ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to RemoveDeletedAtToUsers (20190512204210)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "ausers" ("id" integer NOT NULL PRIMARY KEY, "last_name" varchar DEFAULT NULL, "first_name" varchar DEFAULT NULL, "ruby_last_name" varchar DEFAULT NULL, "ruby_first_name" varchar DEFAULT NULL, "postcode" varchar DEFAULT NULL, "address" varchar DEFAULT NULL, "phone" varchar DEFAULT NULL, "email" varchar DEFAULT NULL, "password" varchar DEFAULT NULL, "admin" boolean DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "deleted_at" datetime DEFAULT NULL)[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_ausers_on_deleted_at" ON "ausers" ("deleted_at")[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.2ms)[0m  [1m[32mINSERT INTO "ausers" ("id","last_name","first_name","ruby_last_name","ruby_first_name","postcode","address","phone","email","password","admin","created_at","updated_at","deleted_at")
+                     SELECT "id","last_name","first_name","ruby_last_name","ruby_first_name","postcode","address","phone","email","password","admin","created_at","updated_at","deleted_at" FROM "users"[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (3.1ms)[0m  [1m[35mDROP TABLE "users"[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer NOT NULL PRIMARY KEY, "last_name" varchar DEFAULT NULL, "first_name" varchar DEFAULT NULL, "ruby_last_name" varchar DEFAULT NULL, "ruby_first_name" varchar DEFAULT NULL, "postcode" varchar DEFAULT NULL, "address" varchar DEFAULT NULL, "phone" varchar DEFAULT NULL, "email" varchar DEFAULT NULL, "password" varchar DEFAULT NULL, "admin" boolean DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "users" ("id","last_name","first_name","ruby_last_name","ruby_first_name","postcode","address","phone","email","password","admin","created_at","updated_at")
+                     SELECT "id","last_name","first_name","ruby_last_name","ruby_first_name","postcode","address","phone","email","password","admin","created_at","updated_at" FROM "ausers"[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "ausers"[0m
+  ↳ db/migrate/20190512204210_remove_deleted_at_to_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190512204210"]]
+  ↳ bin/rails:9
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddDeletedAtToUsers (20190512204211)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (4.4ms)[0m  [1m[35mALTER TABLE "users" ADD "deleted_at" datetime[0m
+  ↳ db/migrate/20190512204211_add_deleted_at_to_users.rb:3
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190512204211_add_deleted_at_to_users.rb:4
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE  INDEX "index_users_on_deleted_at" ON "users" ("deleted_at")[0m
+  ↳ db/migrate/20190512204211_add_deleted_at_to_users.rb:4
+  [1m[36mActiveRecord::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190512204211"]]
+  ↳ bin/rails:9
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (1.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
