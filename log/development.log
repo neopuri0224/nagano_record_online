@@ -645,3 +645,783 @@ Migrating to DeviseCreateUsers (20190512204220)
   ↳ bin/rails:9
   [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ bin/rails:9
+Started GET "/" for 10.0.2.2 at 2019-05-13 04:55:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 24ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-05-13 04:55:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-05-13 04:56:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:27:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4652.4ms)
+Started GET "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:27:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 4727ms (Views: 4725.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 10116ms (Views: 10068.1ms | ActiveRecord: 9.4ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:30:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (31.4ms)
+Completed 200 OK in 321ms (Views: 319.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:31:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 256ms (Views: 254.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:36:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (5.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (134.0ms)
+Completed 200 OK in 558ms (Views: 554.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:36:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (85.7ms)
+Completed 200 OK in 632ms (Views: 628.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:46:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 138ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/vagrant/nagano_record_online/app/views/devise/sessions/new.html.erb:26: syntax error, unexpected '<'
+  </div>
+  ^
+/vagrant/nagano_record_online/app/views/devise/sessions/new.html.erb:29: unknown regexp options - hard
+/vagrant/nagano_record_online/app/views/devise/sessions/new.html.erb:29: unmatched close parenthesis: /div>
+<% end );@output_buffer.safe_append='
+
+'.freeze;@output_buffer.append=( render "devise/
+/vagrant/nagano_record_online/app/views/devise/sessions/new.html.erb:29: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...=( render "devise/shared/links" );
+...                              ^
+/vagrant/nagano_record_online/app/views/devise/sessions/new.html.erb:34: unterminated string meets end of file
+          end
+             ^
+/vagrant/nagano_record_online/app/views/devise/sessions/new.html.erb:34: syntax error, unexpected end-of-input, expecting ')'
+          end
+             ^):
+  
+app/views/devise/sessions/new.html.erb:26: syntax error, unexpected '<'
+app/views/devise/sessions/new.html.erb:29: unknown regexp options - hard
+app/views/devise/sessions/new.html.erb:29: unmatched close parenthesis: /div>
+app/views/devise/sessions/new.html.erb:29: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/devise/sessions/new.html.erb:34: unterminated string meets end of file
+app/views/devise/sessions/new.html.erb:34: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:47:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 147ms (ActiveRecord: 8.2ms)
+
+
+  
+SyntaxError (/vagrant/nagano_record_online/app/views/devise/sessions/new.html.erb:26: syntax error, unexpected '<'
+  </div>
+  ^
+/vagrant/nagano_record_online/app/views/devise/sessions/new.html.erb:29: unknown regexp options - hard
+/vagrant/nagano_record_online/app/views/devise/sessions/new.html.erb:29: unmatched close parenthesis: /div>
+<% end );@output_buffer.safe_append='
+
+'.freeze;@output_buffer.append=( render "devise/
+/vagrant/nagano_record_online/app/views/devise/sessions/new.html.erb:29: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...=( render "devise/shared/links" );
+...                              ^
+/vagrant/nagano_record_online/app/views/devise/sessions/new.html.erb:34: unterminated string meets end of file
+          end
+             ^
+/vagrant/nagano_record_online/app/views/devise/sessions/new.html.erb:34: syntax error, unexpected end-of-input, expecting ')'
+          end
+             ^):
+  
+app/views/devise/sessions/new.html.erb:26: syntax error, unexpected '<'
+app/views/devise/sessions/new.html.erb:29: unknown regexp options - hard
+app/views/devise/sessions/new.html.erb:29: unmatched close parenthesis: /div>
+app/views/devise/sessions/new.html.erb:29: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/devise/sessions/new.html.erb:34: unterminated string meets end of file
+app/views/devise/sessions/new.html.erb:34: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:47:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (1024.6ms)
+Completed 200 OK in 1962ms (Views: 1959.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:52:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 315ms (Views: 313.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:56:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YDAME3xunmpBMKr0U0C/WO2sBjhp9UJLJFCskn+YhK0Ugy9c4u8A83AJac9ZBPC7juGgQ6iCO5kr7iZkBVstDw==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YDAME3xunmpBMKr0U0C/WO2sBjhp9UJLJFCskn+YhK0Ugy9c4u8A83AJac9ZBPC7juGgQ6iCO5kr7iZkBVstDw==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 245ms (Views: 242.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:56:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MhMvDDqcPfGyyPEY/hQZxbCAyYpA1dHmpYVxn/qXH0pGoAxDpB2jaIPxMiP0UFYm081v8YGiqDSqO/tpgFS26A==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"新規登録はこちら"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MhMvDDqcPfGyyPEY/hQZxbCAyYpA1dHmpYVxn/qXH0pGoAxDpB2jaIPxMiP0UFYm081v8YGiqDSqO/tpgFS26A==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"新規登録はこちら"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 328ms (Views: 326.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:56:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oUvl0BjymaTGCqMwU+yxPJhoezs951TtGedb0q3Um3DV+MafhnMHPfczYAtZqP7f+yXdQPyQLT8WWdEk1xcy0g==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oUvl0BjymaTGCqMwU+yxPJhoezs951TtGedb0q3Um3DV+MafhnMHPfczYAtZqP7f+yXdQPyQLT8WWdEk1xcy0g==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 252ms (Views: 250.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2019-05-13 05:56:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.6ms)
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (55.8ms)
+Completed 200 OK in 250ms (Views: 249.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:58:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (4.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (56.4ms)
+Completed 200 OK in 440ms (Views: 438.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:58:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ol/hlcdg1OVY7sXxzbpD0I9SybGNkoGbH6SQjyIyuAXW7MLaWeFKfGnXBsrH/gwz7B9vykzl+EkQGhp5WPERpw==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ol/hlcdg1OVY7sXxzbpD0I9SybGNkoGbH6SQjyIyuAXW7MLaWeFKfGnXBsrH/gwz7B9vykzl+EkQGhp5WPERpw==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 250ms (Views: 248.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:58:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IXB4ogoLe4AwBeK9CzA5Q9cafF8pomw/bokmSz5KGJxVw1vtlIrlGQE8IYYBdHagtFfaJOjVFe1hN6y9RImxPg==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"新規登録はこちら"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IXB4ogoLe4AwBeK9CzA5Q9cafF8pomw/bokmSz5KGJxVw1vtlIrlGQE8IYYBdHagtFfaJOjVFe1hN6y9RImxPg==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"新規登録はこちら"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (31.4ms)
+Completed 200 OK in 373ms (Views: 372.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:58:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v6uWElm+ggV+g9v8LbDt83zQYuXaOXalxwZHHCuqdtDLGLVdxz8cnE+6GMcn9KIQH53EnhtOD3fIuM3qUWnfcg==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v6uWElm+ggV+g9v8LbDt83zQYuXaOXalxwZHHCuqdtDLGLVdxz8cnE+6GMcn9KIQH53EnhtOD3fIuM3qUWnfcg==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (53.2ms)
+Completed 200 OK in 467ms (Views: 465.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2019-05-13 05:58:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (97.2ms)
+Completed 200 OK in 481ms (Views: 478.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2019-05-13 06:00:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (1.4ms)
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (70.5ms)
+Completed 200 OK in 294ms (Views: 288.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:01:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5KPjKagXshOwTLClz0BUW4mJf2vUFo+wKp8TZSLOZfOQEMBmNpYsioF1c57FBBu46sTZEBVh9mIlIZmTWA3MUQ==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5KPjKagXshOwTLClz0BUW4mJf2vUFo+wKp8TZSLOZfOQEMBmNpYsioF1c57FBBu46sTZEBVh9mIlIZmTWA3MUQ==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (39.3ms)
+Completed 200 OK in 355ms (Views: 351.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:01:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LlXBD4R46VlRu1EBGDeguORic67sySvt1fAsaQkJ/jNa5uJAGvl3wGCCkjoSc+9bhy/V1S2+Uj/aTqafc8pXkQ==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LlXBD4R46VlRu1EBGDeguORic67sySvt1fAsaQkJ/jNa5uJAGvl3wGCCkjoSc+9bhy/V1S2+Uj/aTqafc8pXkQ==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (57.3ms)
+Completed 200 OK in 521ms (Views: 515.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:01:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1cxxwMOhwHuWE6Y1ZBtEHiryAsFRyeS3oyPApNoVn6yhf1KPXSBe4qcqZQ5uXwv9Sb+kupC+nWWsnUpSoNY2Dg==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1cxxwMOhwHuWE6Y1ZBtEHiryAsFRyeS3oyPApNoVn6yhf1KPXSBe4qcqZQ5uXwv9Sb+kupC+nWWsnUpSoNY2Dg==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (50.9ms)
+Completed 200 OK in 414ms (Views: 412.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2019-05-13 06:01:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.5ms)
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (42.0ms)
+Completed 200 OK in 261ms (Views: 259.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2019-05-13 06:02:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.6ms)
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (45.5ms)
+Completed 200 OK in 267ms (Views: 264.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:02:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5C8MyLupTDrfwD2ps3oLjw95WbfTNRCvOw54qk7Z0lSQnC+HJSjSo+75/pK5PkRsbDT/zBJCaX00sPJcNBp79g==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5C8MyLupTDrfwD2ps3oLjw95WbfTNRCvOw54qk7Z0lSQnC+HJSjSo+75/pK5PkRsbDT/zBJCaX00sPJcNBp79g==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (40.6ms)
+Completed 200 OK in 359ms (Views: 357.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:02:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 254ms (Views: 251.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:03:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (35.6ms)
+Completed 200 OK in 281ms (Views: 279.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2019-05-13 06:03:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.5ms)
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (47.9ms)
+Completed 200 OK in 279ms (Views: 277.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:04:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vmhlmZqw8UCskUwIHorwOk/fFoZvGT4/bplmEBwE3OvK20bWBDFv2Z2ojzMUzr/ZLJKw/a5uR+1hJ+zmZsd1SQ==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"新規登録はこちら"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vmhlmZqw8UCskUwIHorwOk/fFoZvGT4/bplmEBwE3OvK20bWBDFv2Z2ojzMUzr/ZLJKw/a5uR+1hJ+zmZsd1SQ==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"新規登録はこちら"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (27.3ms)
+Completed 200 OK in 282ms (Views: 281.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:04:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AAjnlzTpTzSmbnTEl68AePaU01PZJ/32riulZnuoCsh0u8TYqmjRrZdXt/+d60+bldl1KBhQhCShlS+QAWujag==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"新規登録はこちら"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AAjnlzTpTzSmbnTEl68AePaU01PZJ/32riulZnuoCsh0u8TYqmjRrZdXt/+d60+bldl1KBhQhCShlS+QAWujag==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"新規登録はこちら"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 298ms (Views: 296.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:05:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vzAzMRqnv2WGEYetmpEeiM66PIoxrZNbYQzUb4ysr0XLgxB+hCYh/LcoRJaQ1VFrrfea8fDa6olusl6Z9m8G5w==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vzAzMRqnv2WGEYetmpEeiM66PIoxrZNbYQzUb4ysr0XLgxB+hCYh/LcoRJaQ1VFrrfea8fDa6olusl6Z9m8G5w==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (26.5ms)
+Completed 200 OK in 264ms (Views: 263.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:05:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5qoTRcIGJ/VJzl+JGNWZnlDiUlLaj/UFfyScBBJ8piuSGTAKXIe5bHj3nLISkdZ9M6/0KRv4jNdwmhbyaL8PiQ==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"新規登録はこちら"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5qoTRcIGJ/VJzl+JGNWZnlDiUlLaj/UFfyScBBJ8piuSGTAKXIe5bHj3nLISkdZ9M6/0KRv4jNdwmhbyaL8PiQ==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"新規登録はこちら"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 317ms (Views: 315.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:05:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qQbzTEFqJZUgMH2HaPkOxiRTFABmaAjpcgpmJt6UJPvdtdAD3+u7DBEJvrxivUElRx6ye6cfcTt9tOzQpFeNWQ==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qQbzTEFqJZUgMH2HaPkOxiRTFABmaAjpcgpmJt6UJPvdtdAD3+u7DBEJvrxivUElRx6ye6cfcTt9tOzQpFeNWQ==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (26.9ms)
+Completed 200 OK in 326ms (Views: 324.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:05:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XCOV4P302yOuMam2/n6ZjXT0IRIThZsxzQ4IK4of9tEokLavY3VFup8Iao30OtZuF7mHadLy4uPCsILd8Nxfcw==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"新規登録はこちら"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XCOV4P302yOuMam2/n6ZjXT0IRIThZsxzQ4IK4of9tEokLavY3VFup8Iao30OtZuF7mHadLy4uPCsILd8Nxfcw==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"新規登録はこちら"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (25.4ms)
+Completed 200 OK in 381ms (Views: 379.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:05:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zRFLqWitXi7Lb+OhjPbw/7Wax86sMfx1J2zTMkhDlwC5omjm9izAt/pWIJqGsr8c1tdhtW1Ghaco0lnEMoA+og==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zRFLqWitXi7Lb+OhjPbw/7Wax86sMfx1J2zTMkhDlwC5omjm9izAt/pWIJqGsr8c1tdhtW1Ghaco0lnEMoA+og==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (37.6ms)
+Completed 200 OK in 364ms (Views: 362.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:05:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RhcvWE6UeZQCxivhL/K/qT/aNh4KtpEABH+JM/GdwhgypAwX0BXnDTP/6NoltvBKXJeQZcvB6NILwQPFi15rug==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"新規登録はこちら"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RhcvWE6UeZQCxivhL/K/qT/aNh4KtpEABH+JM/GdwhgypAwX0BXnDTP/6NoltvBKXJeQZcvB6NILwQPFi15rug==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"新規登録はこちら"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 289ms (Views: 285.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:05:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h7oOcDE7GsHK/UKeoVHo9Qk5cqm6ZKRUv0W6ZPDha0HzCS0/r7qEWPvEgaWrFacWanTU0nsT3Yaw+zCSiiLC4w==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h7oOcDE7GsHK/UKeoVHo9Qk5cqm6ZKRUv0W6ZPDha0HzCS0/r7qEWPvEgaWrFacWanTU0nsT3Yaw+zCSiiLC4w==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 441ms (Views: 440.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:05:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJApNP2aIYZVtVL9r6tIGdKRFD3bKzUYHUwlujIs7BbsIwp7Yxu/H2SMkcal7wf6sdyyRhpcTMoS8q9MSO9FtA==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"新規登録はこちら"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJApNP2aIYZVtVL9r6tIGdKRFD3bKzUYHUwlujIs7BbsIwp7Yxu/H2SMkcal7wf6sdyyRhpcTMoS8q9MSO9FtA==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"新規登録はこちら"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (32.6ms)
+Completed 200 OK in 337ms (Views: 335.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:05:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WXEefcjpx109OfyB80/iR3EL6iHXezf8hERja26UvdUtwj0yVmhZxAwAP7r5C62kEkZMWhYMTi6L+umdFFcUdw==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WXEefcjpx109OfyB80/iR3EL6iHXezf8hERja26UvdUtwj0yVmhZxAwAP7r5C62kEkZMWhYMTi6L+umdFFcUdw==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (31.1ms)
+Completed 200 OK in 280ms (Views: 277.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:06:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (53.8ms)
+Completed 200 OK in 437ms (Views: 434.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/password/new" for 10.0.2.2 at 2019-05-13 06:09:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::PasswordsController#new as HTML
+  Rendering devise/passwords/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.5ms)
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (59.7ms)
+Completed 200 OK in 315ms (Views: 275.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:15:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (25.6ms)
+Completed 200 OK in 281ms (Views: 279.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2019-05-13 06:15:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.5ms)
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (44.3ms)
+Completed 200 OK in 284ms (Views: 282.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2019-05-13 06:17:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.5ms)
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (45.7ms)
+Completed 200 OK in 270ms (Views: 268.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2019-05-13 06:17:22 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (1.2ms)
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (60.7ms)
+Completed 200 OK in 367ms (Views: 364.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 10.0.2.2 at 2019-05-13 06:17:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e3Dm5VNlh6ZrcAYZUxJn9cLz7iO9RYWp7Fev1mr0hQ4Pw8WqzeQZP1pJxSJZVigWob5IWHwy/Hvj6SUgEDcsrA==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (1.2ms)
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 414ms (Views: 292.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 10.0.2.2 at 2019-05-13 06:17:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e3Dm5VNlh6ZrcAYZUxJn9cLz7iO9RYWp7Fev1mr0hQ4Pw8WqzeQZP1pJxSJZVigWob5IWHwy/Hvj6SUgEDcsrA==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (2.4ms)
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (76.6ms)
+Completed 200 OK in 469ms (Views: 368.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2019-05-13 06:17:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (35.4ms)
+Completed 200 OK in 288ms (Views: 286.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2019-05-13 06:22:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.5ms)
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (68.6ms)
+Completed 200 OK in 271ms (Views: 268.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2019-05-13 06:31:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (561.8ms)
+Completed 500 Internal Server Error in 644ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `lable' for #<ActionView::Helpers::FormBuilder:0x00007fcac4085598>):
+    3: <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+    4:   <%= render "devise/shared/error_messages", resource: resource %>
+    5:   <div class="field">
+    6:     <%= f.lable :姓名%>
+    7:     
+    8:   <div class="field">
+    9:     <%= f.label :email %><br />
+  
+app/views/devise/registrations/new.html.erb:6:in `block in _app_views_devise_registrations_new_html_erb___1202729467832455154_70254424594460'
+app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb___1202729467832455154_70254424594460'
+Started GET "/users/sign_up" for 10.0.2.2 at 2019-05-13 06:33:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (830.7ms)
+Completed 500 Internal Server Error in 921ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `lable' for #<ActionView::Helpers::FormBuilder:0x00007fcabe923610>):
+    3: <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+    4:   <%= render "devise/shared/error_messages", resource: resource %>
+    5:   <div class="field">
+    6:     <%= f.lable :姓名%>
+    7:     
+    8:   <div class="field">
+    9:     <%= f.label :email %><br />
+  
+app/views/devise/registrations/new.html.erb:6:in `block in _app_views_devise_registrations_new_html_erb___1202729467832455154_70254424320140'
+app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb___1202729467832455154_70254424320140'
+Started GET "/users/sign_up" for 10.0.2.2 at 2019-05-13 06:33:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.8ms)
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (106.4ms)
+Completed 200 OK in 433ms (Views: 431.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2019-05-13 06:34:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (905.1ms)
+Completed 500 Internal Server Error in 1033ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `lable' for #<ActionView::Helpers::FormBuilder:0x00007fcabe8c9ed0>):
+    3: <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+    4:   <%= render "devise/shared/error_messages", resource: resource %>
+    5:   <div class="field">
+    6:     <%= f.lable :姓名%>
+    7:     
+    8:   <div class="field">
+    9:     <%= f.label :email %><br />
+  
+app/views/devise/registrations/new.html.erb:6:in `block in _app_views_devise_registrations_new_html_erb___1202729467832455154_70254377967980'
+app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb___1202729467832455154_70254377967980'
+Started GET "/users/sign_up" for 10.0.2.2 at 2019-05-13 06:35:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (838.3ms)
+Completed 500 Internal Server Error in 950ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `lable' for #<ActionView::Helpers::FormBuilder:0x00007fcabce7ee40>):
+    3: <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+    4:   <%= render "devise/shared/error_messages", resource: resource %>
+    5:   <div class="field">
+    6:     <%= f.lable :姓名%>
+    7:     
+    8:   <div class="field">
+    9:     <%= f.label :email %><br />
+  
+app/views/devise/registrations/new.html.erb:6:in `block in _app_views_devise_registrations_new_html_erb___1202729467832455154_70254364267980'
+app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb___1202729467832455154_70254364267980'
+Started GET "/users/sign_up" for 10.0.2.2 at 2019-05-13 06:35:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.6ms)
+  Rendered devise/shared/_links.html.erb (2.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (109.8ms)
+Completed 200 OK in 538ms (Views: 536.0ms | ActiveRecord: 0.0ms)
+
+
